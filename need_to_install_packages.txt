@@ -1,0 +1,27 @@
+>>>> MUI Package
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+>>>> React Router DOM
+npm install react-router-dom@6
+
+>>>> MUI/Joy/material
+npm i @mui/joy
+
+>>>> DATE PICKER
+// Install component (community version)
+npm install @mui/x-date-pickers
+// Install date library (if not already installed)
+npm install dayjs
+
+
+>>>> FILE UPLOAD
+npm install axios --save
+
+
+
+
+
+/////// OTHER NOTES ////// 
+>>> ERROR WHEN TWO GIT COMMANDS WERE EXECUTED SIMULTANEOUSLY
+(fatal: Unable to create 'D:/Mac/Project/gig/gig-website/.git/index.lock': File exists.)
+use this >>> rm -f .git/index.lock or rm -force .git/index.lock
